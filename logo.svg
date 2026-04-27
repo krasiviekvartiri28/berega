@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B4EE6;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4EC6FF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Graphic element - stylized river with banks and leaf -->
+  <g fill="url(#logoGradient)">
+    <path d="M 150 200 Q 180 150 220 140 Q 260 130 280 160 Q 290 175 285 190 Q 280 205 265 215 Q 250 225 235 220 Q 220 215 215 200 Q 210 185 220 175 Q 230 165 250 170 Q 270 175 275 195 Q 280 215 260 230 Q 240 245 200 240 Q 160 235 140 220 Q 120 205 125 185 Q 130 165 150 155 Z"/>
+    <path d="M 200 220 Q 280 200 400 195 Q 520 190 640 210 Q 680 218 685 240 Q 690 262 665 275 Q 640 288 600 285 Q 560 282 520 270 Q 480 258 440 255 Q 400 252 360 258 Q 320 264 280 262 Q 240 260 220 250 Q 200 240 195 230 Q 190 220 200 220 Z"/>
+    <path d="M 200 235 Q 280 215 400 210 Q 520 205 640 225 Q 680 233 685 255 Q 690 277 665 290 Q 640 303 600 300 Q 560 297 520 285 Q 480 273 440 270 Q 400 267 360 273 Q 320 279 280 277 Q 240 275 220 265 Q 200 255 195 245 Q 190 235 200 235 Z"/>
+  </g>
+
+  <!-- Main text "БЕРЕГА" -->
+  <text x="400" y="380"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="72"
+        font-weight="bold"
+        fill="url(#logoGradient)"
+        text-anchor="middle"
+        letter-spacing="8">
+    БЕРЕГА
+  </text>
+
+  <!-- Subtitle "ОСТАНОВИСЬ У РЕКИ" -->
+  <text x="400" y="440"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="28"
+        font-weight="500"
+        fill="url(#logoGradient)"
+        text-anchor="middle"
+        letter-spacing="3">
+    ОСТАНОВИСЬ У РЕКИ
+  </text>
+</svg>

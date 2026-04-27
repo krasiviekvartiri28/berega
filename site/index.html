@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Берега — Коллекция квартир в Благовещенске и Санкт-Петербурге</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="styles.css?v=23">
+</head>
+<body>
+
+<!-- ============ 0 · Header ============ -->
+<header class="header">
+  <div class="container header__inner">
+    <a class="header__brand" href="#top">
+      <img src="logo.png" alt="Берега">
+      <span class="header__word">БЕРЕГА</span>
+    </a>
+    <nav class="header__nav">
+      <a href="#booking">Забронировать</a>
+      <a href="#properties">Квартиры</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#rules">Правила</a>
+      <a href="#faq">FAQ</a>
+      <a href="#lead">Субаренда</a>
+    </nav>
+    <div class="header__right">
+      <div class="lang-switch" role="group" aria-label="Выбор языка">
+        <button type="button" class="active" aria-pressed="true">РФ</button>
+        <button type="button" aria-pressed="false">中文</button>
+      </div>
+      <a class="btn btn-primary" href="#booking">Забронировать</a>
+    </div>
+  </div>
+  <div class="header__progress"></div>
+</header>
+
+<a id="top"></a>
+
+<!-- ============ 1 · Hero ============ -->
+<section class="hero">
+  <div class="hero__bg"></div>
+  <div class="container hero__grid">
+    <div class="reveal in">
+      <p class="eyebrow">Коллекция квартир · Благовещенск · Санкт-Петербург</p>
+      <h1>Коллекция квартир<br>в Благовещенске<br>и Санкт-Петербурге</h1>
+      <p class="lead" style="margin-top:28px;max-width:520px">Остановись у реки. Вид на Амур и Китай или на Неву и Финский залив. Выбирай тишину, которая ближе.</p>
+      <div class="hero__cta">
+        <a class="btn btn-primary" href="#booking">Забронировать</a>
+        <a class="btn btn-secondary" href="#lead">Доверительное управление</a>
+      </div>
+    </div>
+    <div class="hero__media reveal in d2">
+      <img class="hero__photo" src="hero.jpg?v=3" alt="Вид на Хэйхэ через Амур" width="1024" height="615" loading="eager" decoding="async">
+      <div class="hero__chip">
+        <div class="quote">«Вечер. Амур. Прогулки по набережной.»</div>
+        <span class="cap">— Благовещенск, вид на Китай</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 2 · Booking module ============ -->
+<section id="booking" class="section section--tight">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Бронирование</p>
+      <h2>Найдите квартиру <em>у воды</em></h2>
+    </div>
+    <div class="booking-module reveal d1">
+      <div id="hr-widget"></div>
+      <script type="module" src="https://homereserve.ru/widget.js"></script>
+      <script type="module">
+        window.homereserve.initWidgetSearch({"token":"WDBL6E35aB","navigation":false})
+      </script>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3 · Subscribe & discount ============ -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Будь рядом</p>
+      <h2>Подпишись и получи <em>скидку 10%</em></h2>
+      <p class="lead">Расскажем о свободных датах и закрытых предложениях. Без спама — только тишина и пара полезных слов в месяц.</p>
+    </div>
+    <div class="subs-grid">
+      <div class="sub-card reveal d1">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-11 11"/><path d="M22 2 15 22l-4-9-9-4Z"/></svg></div>
+        <h3>Telegram-канал</h3>
+        <p>Свободные даты, утренние фото с реки, закрытые цены.</p>
+        <a class="btn btn-primary" href="https://t.me/maruruche">Подписаться</a>
+      </div>
+      <div class="sub-card reveal d2">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="18" rx="3"/><path d="M7 9h2l2 4 2-4h2l-3 6h-2z"/></svg></div>
+        <h3>ВКонтакте</h3>
+        <p>Большие фото квартир, рассказы о соседних местах, пейзажи.</p>
+        <a class="btn btn-secondary" href="#">Перейти</a>
+      </div>
+      <div class="sub-card reveal d3">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></div>
+        <h3>Instagram</h3>
+        <p>Сторис из квартир — закаты, балконы, окна в реку.</p>
+        <a class="btn btn-secondary" href="#">Перейти</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4 · Trust ratings ============ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Что говорят гости</p>
+      <h2>Нас выбирают <em>и возвращаются</em></h2>
+    </div>
+    <div class="trust-grid">
+      <div class="trust-card reveal d1">
+        <div class="num">4.9</div>
+        <div class="star">★ ★ ★ ★ ★</div>
+        <p class="src">Авито · 280+ оценок</p>
+      </div>
+      <div class="trust-card reveal d2">
+        <div class="num">5.0</div>
+        <div class="star">★ ★ ★ ★ ★</div>
+        <p class="src">Суточно.ру</p>
+      </div>
+      <div class="trust-card reveal d3">
+        <div class="num">98%</div>
+        <div class="star" style="color:var(--brand-main);font-size:18px">— довольных гостей</div>
+        <p class="src">по итогам 2025 года</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5 · Today's offer ============ -->
+<section class="section section--tight">
+  <div class="container">
+    <div class="offer reveal">
+      <div>
+        <span class="promo">−15% сегодня</span>
+        <h2>Промокод <em>TODAY</em> до полуночи</h2>
+        <p>Скидка действует до 23:59 по времени Благовещенска. Введите код при бронировании.</p>
+        <a class="btn" href="#booking">Забронировать со скидкой</a>
+      </div>
+      <div class="offer__timer">
+        <div class="tt-cell"><div class="v">07</div><div class="l">час</div></div>
+        <div class="tt-cell"><div class="v">42</div><div class="l">мин</div></div>
+        <div class="tt-cell"><div class="v">18</div><div class="l">сек</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6 · Property list ============ -->
+<section id="properties" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Сейчас на воде</p>
+      <h2>Свободные квартиры <em>в коллекции</em></h2>
+      <p class="lead">Шесть тихих мест на Амуре. Утро, чай, окно — и больше ничего.</p>
+    </div>
+    <div class="props-grid">
+      <article class="prop reveal d1">
+        <div class="prop__photo" style="background-image:url('properties/apt-1.jpg')" role="img" aria-label="Спальня с серым изголовьем, белым постельным бельём и красным пледом">
+          <span class="badge">Гостям нравится</span><span class="city">Благовещенск</span>
+        </div>
+        <div class="prop__body">
+          <div class="prop__place">наб. Амура, вид на Хэйхэ</div>
+          <h3 class="prop__title">Окно в реку, балкон в Китай</h3>
+          <p class="prop__meta">3 гостя · 2 спальни · 7 этаж</p>
+          <div class="prop__row"><span class="prop__price">5 800 ₽<span class="per"> / ночь</span></span><span class="prop__rate"><span class="star">★</span> 4.96</span></div>
+        </div>
+      </article>
+      <article class="prop reveal d2">
+        <div class="prop__photo" style="background-image:url('properties/apt-2.jpg')" role="img" aria-label="Просторная гостиная-спальня с рабочей зоной и большим окном">
+          <span class="badge">Новое</span><span class="city">Благовещенск</span>
+        </div>
+        <div class="prop__body">
+          <div class="prop__place">ул. Зейская, центр</div>
+          <h3 class="prop__title">Светлая квартира с рабочим местом</h3>
+          <p class="prop__meta">2 гостя · 1 спальня · 8 этаж</p>
+          <div class="prop__row"><span class="prop__price">5 200 ₽<span class="per"> / ночь</span></span><span class="prop__rate"><span class="star">★</span> 4.92</span></div>
+        </div>
+      </article>
+      <article class="prop reveal d3">
+        <div class="prop__photo" style="background-image:url('properties/apt-3.jpg')" role="img" aria-label="Современная спальня в серых тонах с дизайнерской люстрой">
+          <span class="badge">Гостям нравится</span><span class="city">Благовещенск</span>
+        </div>
+        <div class="prop__body">
+          <div class="prop__place">Центр, Ленина</div>
+          <h3 class="prop__title">Студия с французским окном</h3>
+          <p class="prop__meta">2 гостя · студия · с балконом</p>
+          <div class="prop__row"><span class="prop__price">4 400 ₽<span class="per"> / ночь</span></span><span class="prop__rate"><span class="star">★</span> 4.88</span></div>
+        </div>
+      </article>
+      <article class="prop reveal d1">
+        <div class="prop__photo" style="background-image:url('properties/apt-4.jpg')" role="img" aria-label="Кухня с тёмно-синими фасадами и обеденной зоной у окна">
+          <span class="badge">Премиум</span><span class="city">Благовещенск</span>
+        </div>
+        <div class="prop__body">
+          <div class="prop__place">ул. Амурская, у набережной</div>
+          <h3 class="prop__title">Квартира с авторской кухней</h3>
+          <p class="prop__meta">4 гостя · 2 спальни · 5 этаж</p>
+          <div class="prop__row"><span class="prop__price">7 400 ₽<span class="per"> / ночь</span></span><span class="prop__rate"><span class="star">★</span> 5.00</span></div>
+        </div>
+      </article>
+      <article class="prop reveal d2">
+        <div class="prop__photo" style="background-image:url('properties/apt-5.jpg')" role="img" aria-label="Студия-лофт с кирпичной стеной и стеклянной перегородкой к кухне">
+          <span class="badge">Новое</span><span class="city">Благовещенск</span>
+        </div>
+        <div class="prop__body">
+          <div class="prop__place">наб. Амура, центр</div>
+          <h3 class="prop__title">Двухкомнатная с панорамой</h3>
+          <p class="prop__meta">4 гостя · 2 спальни · 12 этаж</p>
+          <div class="prop__row"><span class="prop__price">6 900 ₽<span class="per"> / ночь</span></span><span class="prop__rate"><span class="star">★</span> 4.95</span></div>
+        </div>
+      </article>
+      <article class="prop reveal d3">
+        <div class="prop__photo" style="background-image:url('properties/apt-6.jpg')" role="img" aria-label="Уютная кухня-столовая с круглым столом и деревянным акцентом на стене">
+          <span class="badge">Гостям нравится</span><span class="city">Благовещенск</span>
+        </div>
+        <div class="prop__body">
+          <div class="prop__place">ул. Мухина, тихий район</div>
+          <h3 class="prop__title">Тёплая квартира с уютной столовой</h3>
+          <p class="prop__meta">3 гостя · 2 спальни · сауна</p>
+          <div class="prop__row"><span class="prop__price">6 200 ₽<span class="per"> / ночь</span></span><span class="prop__rate"><span class="star">★</span> 4.97</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Marquee -->
+<div class="marquee">
+  <div class="marquee__inner">
+    <span>Благовещенск<span class="sep">✦</span> Вид на Амур<span class="sep">✦</span> Хэйхэ за окном<span class="sep">✦</span> Набережная<span class="sep">✦</span> Утро у реки<span class="sep">✦</span></span>
+    <span>Благовещенск<span class="sep">✦</span> Вид на Амур<span class="sep">✦</span> Хэйхэ за окном<span class="sep">✦</span> Набережная<span class="sep">✦</span> Утро у реки<span class="sep">✦</span></span>
+  </div>
+</div>
+
+<!-- ============ 7 · Reviews ============ -->
+<section id="reviews" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Отзывы гостей</p>
+      <h2>«Тихо, чисто, <em>красиво</em>»</h2>
+      <p class="lead">Реальные отзывы с Авито и Суточно.ру — без редактирования.</p>
+    </div>
+
+    <div class="reviews-strip">
+      <div class="review reveal d1">
+        <div class="stars">★★★★★</div>
+        <p class="text">Спасибо за прекрасное жильё! Всё чистенько, в квартире имеется всё, что нужно для прекрасного проживания. Квартира находится у самой набережной — выходи и гуляй! Ну и конечно же, вид из окна на Китай — в самое сердечко. Рекомендую арендодателя.</p>
+        <div class="who"><span>Надежда</span><span>Авито · 28 октября 2025</span></div>
+      </div>
+      <div class="review reveal d2">
+        <div class="stars">★★★★★</div>
+        <p class="text">От всей души хочу поблагодарить хозяйку квартиры за прекрасное размещение! Вы знаете то чувство, когда вас ждут? Когда встречают и окружают заботой? В поездке это очень приятно: чистота, всё для комфортного проживания, приятные мелочи. Искренне благодарю и рекомендую всем гостям Санкт-Петербурга. Спасибо вам огромное!</p>
+        <div class="who"><span>ПрофСпил39</span><span>Суточно.ру · 2 апреля</span></div>
+      </div>
+      <div class="review reveal d3">
+        <div class="stars">★★★★★</div>
+        <p class="text">Останавливались на один день — остались очень довольны. Квартира чистая, светлая, с хорошим ремонтом. Удобное местоположение, быстрый Wi-Fi, удобная кровать, вкусный чай. Всё необходимое для комфортного краткосрочного проживания и работы. Однозначно буду рекомендовать.</p>
+        <div class="who"><span>Александр</span><span>Авито · 11 ноября 2025</span></div>
+      </div>
+      <div class="review reveal d4">
+        <div class="stars">★★★★★</div>
+        <p class="text">Отличная квартира. Всё предусмотрено для комфортного проживания. Очень радует вечерний вид из окна!</p>
+        <div class="who"><span>Игорь</span><span>Авито · 20 апреля</span></div>
+      </div>
+      <div class="review reveal d1">
+        <div class="stars">★★★★★</div>
+        <p class="text">Очень хорошая, чистая квартира. Удобное расположение, великолепные хозяева. Есть свободные квартиры — всегда снимаем только у них.</p>
+        <div class="who"><span>Анастасия</span><span>Суточно.ру · 26 апреля</span></div>
+      </div>
+      <div class="review reveal d2">
+        <div class="stars">★★★★★</div>
+        <p class="text">Чисто. Хороший вид с окна. Всё устроило. Кровать отличная. Рекомендую.</p>
+        <div class="who"><span>Сергей</span><span>Авито · 30 октября 2025</span></div>
+      </div>
+    </div>
+
+    <div class="reviews-proof reveal d2">
+      <p class="eyebrow" style="margin-top:64px">Скриншоты с площадок</p>
+      <div class="reviews-proof__grid">
+        <a class="reviews-proof__item" href="reviews/review-1.png" target="_blank" rel="noopener">
+          <img src="reviews/review-1.png" alt="Скриншот отзывов с Авито — Сергей, Надежда, Виктория">
+          <span class="reviews-proof__src">Авито</span>
+        </a>
+        <a class="reviews-proof__item" href="reviews/review-2.png" target="_blank" rel="noopener">
+          <img src="reviews/review-2.png" alt="Скриншот отзывов с Авито — Андрей, Александр">
+          <span class="reviews-proof__src">Авито</span>
+        </a>
+        <a class="reviews-proof__item" href="reviews/review-3.png" target="_blank" rel="noopener">
+          <img src="reviews/review-3.png" alt="Скриншот отзывов с Суточно.ру — Елена, Игорь, ПрофСпил39">
+          <span class="reviews-proof__src">Суточно.ру</span>
+        </a>
+        <a class="reviews-proof__item" href="reviews/review-4.png" target="_blank" rel="noopener">
+          <img src="reviews/review-4.png" alt="Скриншот отзывов с Суточно.ру — Анастасия, Алексей">
+          <span class="reviews-proof__src">Суточно.ру</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 8 · Leave review ============ -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Поделитесь впечатлением</p>
+      <h2>Оставьте <em>отзыв</em></h2>
+      <p class="lead">Нам важно слышать вас — и приятно, и где можно стать лучше.</p>
+    </div>
+    <form class="form-card reveal d1" onsubmit="event.preventDefault();" aria-label="Форма отзыва">
+      <div class="field-row">
+        <div class="field"><label for="rev-name">Имя</label><input id="rev-name" name="name" placeholder="Анна"></div>
+        <div class="field">
+          <label id="rev-rating-label">Оценка</label>
+          <div class="rating-input" role="radiogroup" aria-labelledby="rev-rating-label">
+            <button type="button" class="on" aria-label="1 звезда из 5">★</button>
+            <button type="button" class="on" aria-label="2 звезды из 5">★</button>
+            <button type="button" class="on" aria-label="3 звезды из 5">★</button>
+            <button type="button" class="on" aria-label="4 звезды из 5">★</button>
+            <button type="button" class="on" aria-label="5 звёзд из 5">★</button>
+          </div>
+        </div>
+      </div>
+      <div class="field"><label for="rev-text">Отзыв</label><textarea id="rev-text" name="text" rows="5" placeholder="Что запомнилось?"></textarea></div>
+      <label class="consent"><input type="checkbox" name="consent"> <span>Соглашаюсь с обработкой персональных данных</span></label>
+      <button class="btn btn-primary" style="margin-top:20px">Отправить отзыв</button>
+    </form>
+  </div>
+</section>
+
+<!-- ============ 9 · Residence rules ============ -->
+<section id="rules" class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Правила проживания</p>
+      <h2>Чтобы всем было <em>хорошо</em></h2>
+      <p class="lead">Мы доверяем гостям и просим о взаимности. Одиннадцать простых правил.</p>
+    </div>
+    <div class="rules-grid">
+      <div class="rule reveal d1"><div class="rule__num">01</div><div class="rule__body"><h4>Тайминги</h4><p>Заезд после 15:00, выезд до 12:00. Раннее заселение и поздний выезд — по договорённости.</p></div></div>
+      <div class="rule reveal d1"><div class="rule__num">02</div><div class="rule__body"><h4>Тишина после 22:00</h4><p>Соседи рядом. Музыку и громкие разговоры просим оставить до утра.</p></div></div>
+      <div class="rule reveal d2"><div class="rule__num">03</div><div class="rule__body"><h4>Залог</h4><p>Возвратный залог при заселении — сумма зависит от объекта. Возвращаем при выезде.</p></div></div>
+      <div class="rule reveal d2"><div class="rule__num">04</div><div class="rule__body"><h4>Курение</h4><p>Курение и вейпы внутри квартиры запрещены. На балконе — пожалуйста.</p></div></div>
+      <div class="rule reveal d3"><div class="rule__num">05</div><div class="rule__body"><h4>Питомцы</h4><p>С животными — по согласованию. Сообщите заранее, и мы подберём подходящую квартиру.</p></div></div>
+      <div class="rule reveal d3"><div class="rule__num">06</div><div class="rule__body"><h4>Открытый огонь</h4><p>Свечи, благовония и любой открытый огонь — нет. Берегите себя и квартиру.</p></div></div>
+      <div class="rule reveal d4"><div class="rule__num">07</div><div class="rule__body"><h4>Перестановки</h4><p>Мебель просим не двигать. Если что-то неудобно — скажите, поможем.</p></div></div>
+      <div class="rule reveal d4"><div class="rule__num">08</div><div class="rule__body"><h4>Вежливое общение</h4><p>С соседями, охраной и менеджером — по-доброму. Это упрощает всё.</p></div></div>
+      <div class="rule reveal d1"><div class="rule__num">09</div><div class="rule__body"><h4>Гости</h4><p>Дополнительные гости и вечеринки — только с предварительного согласия.</p></div></div>
+      <div class="rule reveal d2"><div class="rule__num">10</div><div class="rule__body"><h4>Бережное отношение</h4><p>Обращайтесь с квартирой, как со своей. О поломках сообщайте сразу — починим.</p></div></div>
+      <div class="rule reveal d3"><div class="rule__num">11</div><div class="rule__body"><h4>Регистрация</h4><p>Для гостей из других стран помогаем с миграционным учётом. Сообщите заранее.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10 · FAQ ============ -->
+<section id="faq" class="section section--alt">
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">Частые вопросы</p>
+      <h2>Коротко и по делу</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item reveal d1"><summary>Я забронировал, что дальше?</summary><div class="ans">Сразу после оплаты на почту приходит подтверждение и инструкция: адрес, как пройти, как получить ключи. За день до заезда напишет менеджер с уточнениями.</div></details>
+      <details class="faq-item reveal d1"><summary>Часы работы</summary><div class="ans">Заселяем и отвечаем с 9:00 до 22:00 по местному времени. В экстренных случаях доступны круглосуточно через Telegram.</div></details>
+      <details class="faq-item reveal d2"><summary>Как заселение?</summary><div class="ans">Бесконтактно по коду от электронного замка или с менеджером — как удобнее. Подробная инструкция приходит за день до заезда.</div></details>
+      <details class="faq-item reveal d2"><summary>Безопасно ли отправлять данные?</summary><div class="ans">Да. Все формы защищены, данные не передаются третьим лицам. Подробности — в Политике обработки персональных данных в футере.</div></details>
+      <details class="faq-item reveal d3"><summary>Можно с друзьями или детьми?</summary><div class="ans">Конечно. Укажите количество гостей при бронировании. Для семей с детьми есть квартиры с дополнительной кроватью.</div></details>
+      <details class="faq-item reveal d3"><summary>Как выселение?</summary><div class="ans">До 12:00 закройте дверь и оставьте ключи в шкатулке у замка (или на ресепшен — зависит от объекта). Всё, отдыхайте.</div></details>
+      <details class="faq-item reveal d4"><summary>Возврат залога?</summary><div class="ans">Возвращаем в течение 24 часов после выезда — на ту же карту или наличными. Если есть вопросы — пишите в Telegram.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 11 · Lead form (subaarend) ============ -->
+<section id="lead" class="section lead-section">
+  <div class="container">
+    <div class="lead-grid">
+      <div class="reveal">
+        <p class="eyebrow">Доверительное управление</p>
+        <h2>Сдайте свою квартиру <em>под ключ</em></h2>
+        <p class="lead">Мы возьмём на себя поиск гостей, заселение, уборку, отзывы и все хлопоты. Вы получаете доход — без забот.</p>
+        <ul>
+          <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><div><strong>Прозрачный отчёт</strong> — ежемесячно. Видно каждую бронь.</div></li>
+          <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><div><strong>Профессиональная съёмка</strong> и тексты — за наш счёт.</div></li>
+          <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><div><strong>Размещение</strong> на Авито, Суточно, Booking-аналогах.</div></li>
+          <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><div><strong>Уборка и текстиль</strong> — наша команда. Вы не вмешиваетесь.</div></li>
+          <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg><div><strong>Гарантия дохода</strong> — обсуждаем индивидуально.</div></li>
+        </ul>
+      </div>
+      <form class="form-card reveal d1" onsubmit="event.preventDefault();" aria-label="Форма заявки на доверительное управление">
+        <div class="field-row">
+          <div class="field"><label for="lead-name">Имя</label><input id="lead-name" name="name" placeholder="Мария"></div>
+          <div class="field"><label for="lead-phone">Телефон</label><input id="lead-phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__"></div>
+        </div>
+        <div class="field-row">
+          <div class="field"><label for="lead-email">Email</label><input id="lead-email" name="email" type="email" placeholder="vy@example.com"></div>
+          <div class="field"><label for="lead-city">Город</label>
+            <select id="lead-city" name="city">
+              <option>Благовещенск</option>
+              <option>Санкт-Петербург</option>
+              <option>Другой</option>
+            </select>
+          </div>
+        </div>
+        <div class="field"><label for="lead-msg">Расскажите о квартире</label><textarea id="lead-msg" name="message" rows="4" placeholder="Адрес, метраж, состояние, ваши пожелания…"></textarea></div>
+        <label class="consent"><input type="checkbox" name="consent"> <span>Соглашаюсь с обработкой персональных данных в соответствии с Политикой</span></label>
+        <button class="btn btn-primary" style="margin-top:20px;width:100%">Оставить заявку</button>
+        <p style="font-size:12px;color:var(--text-secondary);margin-top:12px;text-align:center">Ответим в течение часа в рабочее время.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 12 · Footer ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <img src="logo.png" alt="Берега">
+        <div class="word">БЕРЕГА</div>
+        <div class="tag">Остановись у реки</div>
+      </div>
+      <div>
+        <h4>Сайт</h4>
+        <a href="#booking">Забронировать</a>
+        <a href="#properties">Квартиры</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#rules">Правила проживания</a>
+        <a href="#faq">FAQ</a>
+        <a href="#lead">Субаренда</a>
+      </div>
+      <div class="footer__contacts">
+        <h4>Контакты</h4>
+        <a href="tel:+79145770080"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> +7 (914) 577-00-80</a>
+        <a href="mailto:krasivie.kvartiri.28@gmail.com"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg> krasivie.kvartiri.28@gmail.com</a>
+        <a href="https://t.me/maruruche"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-11 11"/><path d="M22 2 15 22l-4-9-9-4Z"/></svg> Telegram · @maruruche</a>
+      </div>
+      <div>
+        <h4>Соцсети</h4>
+        <a href="#">Telegram-канал</a>
+        <a href="#">ВКонтакте</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+    <div class="footer__legal">
+      <span>© 2026 ИП Чердакова М. В.</span>
+      <span>·</span>
+      <a href="#">Политика обработки ПД</a>
+      <span>·</span>
+      <a href="#">Договор-оферта</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Reveal-on-scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // Header scroll progress
+  const bar = document.querySelector('.header__progress');
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+    bar.style.width = pct + '%';
+  });
+
+  // Language switch (cosmetic — true i18n comes with Astro migration)
+  document.querySelectorAll('.lang-switch button').forEach(b => b.addEventListener('click', () => {
+    document.querySelectorAll('.lang-switch button').forEach(x => {
+      x.classList.remove('active');
+      x.setAttribute('aria-pressed', 'false');
+    });
+    b.classList.add('active');
+    b.setAttribute('aria-pressed', 'true');
+  }));
+
+  // Neutralise dead links (href="#") — prevent jump-to-top
+  document.querySelectorAll('a[href="#"]').forEach(a => {
+    a.addEventListener('click', (e) => e.preventDefault());
+  });
+
+  // Rating input
+  document.querySelectorAll('.rating-input').forEach(g => {
+    const btns = [...g.querySelectorAll('button')];
+    btns.forEach((b, i) => b.addEventListener('click', () => {
+      btns.forEach((x, j) => x.classList.toggle('on', j <= i));
+    }));
+  });
+</script>
+</body>
+</html>

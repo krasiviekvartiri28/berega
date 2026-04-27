@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Node
+node_modules/
+.npm
+*.log
+
+# Astro
+astro-site/dist/
+astro-site/.astro/
+astro-site/node_modules/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Netlify
+.netlify/
+
+# Misc
+*.swp
+*.tmp
