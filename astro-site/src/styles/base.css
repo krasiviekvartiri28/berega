@@ -10,6 +10,10 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   line-height: 1.55;
+  cursor: url('/cursor-key-32.png') 4 28, auto;
+}
+a, button, [role="button"], .btn, label, summary, select, input[type="submit"], input[type="button"], input[type="checkbox"], input[type="radio"] {
+  cursor: url('/cursor-key-32.png') 4 28, pointer;
 }
 img { max-width: 100%; display: block; }
 a { color: var(--brand-main); text-decoration: none; }
