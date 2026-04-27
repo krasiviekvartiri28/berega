@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--bg-base);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  line-height: 1.55;
+}
+img { max-width: 100%; display: block; }
+a { color: var(--brand-main); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+.container { max-width: var(--container); margin: 0 auto; padding: 0 var(--gutter); }
+.section { padding: 120px 0; }
+.section--alt { background: var(--surface-alt); }
+.section--tight { padding: 80px 0; }
+
+.eyebrow {
+  font-size: 12px; font-weight: 600;
+  letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--brand-main);
+  margin: 0 0 16px;
+}
+
+h1, h2, h3, h4 { color: var(--text-primary); margin: 0; letter-spacing: -0.015em; }
+h1 { font-size: clamp(36px, 4vw, 55px); font-weight: 600; line-height: 1.22; }
+h1 .accent { font-family: var(--font-serif); font-style: italic; font-weight: 400;
+  background: var(--brand-gradient); -webkit-background-clip: text; background-clip: text; color: transparent; }
+h2 { font-size: clamp(28px, 3.2vw, 44px); font-weight: 600; line-height: 1.12; }
+h2 em { font-family: var(--font-serif); font-style: italic; font-weight: 400; color: var(--brand-main); }
+h3 { font-size: 20px; font-weight: 600; }
+p { color: var(--text-secondary); margin: 0; }
+.lead { font-size: 18px; line-height: 1.6; color: var(--text-secondary); }
+
+/* Reveal-on-scroll baseline */
+.reveal { opacity: 0; transform: translateY(20px); transition: opacity .8s cubic-bezier(.22,.61,.36,1), transform .8s cubic-bezier(.22,.61,.36,1); }
+.reveal.in { opacity: 1; transform: none; }
+.reveal.d1 { transition-delay: .08s; }
+.reveal.d2 { transition-delay: .16s; }
+.reveal.d3 { transition-delay: .24s; }
+.reveal.d4 { transition-delay: .32s; }
+
+/* Section heads */
+.section-head { text-align: center; max-width: 720px; margin: 0 auto 48px; }
+.section-head .lead { margin-top: 12px; }

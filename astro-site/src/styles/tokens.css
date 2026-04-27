@@ -1,0 +1,29 @@
+:root {
+  /* Dark-navy palette */
+  --bg-base:        #0B1628;
+  --surface-alt:    #0F1D33;
+  --surface:        #16263F;
+  --text-primary:   #F2F5F9;
+  --text-secondary: #98A8BF;
+  --brand-deep:     #5660C4;
+  --brand-main:     #4FA8D6;
+  --brand-light:    #A5C9D6;
+  --warm-accent:    #E0BE8E;
+  --border-subtle:  #1F3052;
+  --success:        #5DBE8A;
+  --error:          #E07070;
+
+  --brand-gradient: linear-gradient(135deg, #6E7AE6 0%, #4FB7E0 100%);
+
+  --font-sans: 'Manrope', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+
+  --shadow-card: 0 8px 32px rgba(0,0,0,.32);
+  --shadow-float: 0 18px 56px rgba(0,0,0,.45);
+
+  --r-card: 12px;
+  --r-pill: 999px;
+
+  --container: 1280px;
+  --gutter: 32px;
+}
